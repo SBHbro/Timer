@@ -33,15 +33,17 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
+	void AddComboItem();
 	CEdit m_AlarmText;
 	CEdit m_TimerTime;
 	BOOLEAN m_bTimer;
 	clock_t m_tStartClock;
 	clock_t m_tFinishClock;
-	afx_msg void OnBnClickedButton1();
+	afx_msg void OnBnClickedButtonStart();
 	int GetTime();
 	CString GetText();
-	afx_msg void OnBnClickedButton2();
+	afx_msg void OnBnClickedButtonStop();
 	virtual void OnOK();
 	CStatic m_csRemainTime;
+	CComboBox m_combo;
 };
