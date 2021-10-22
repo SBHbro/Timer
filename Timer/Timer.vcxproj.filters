@@ -65,5 +65,8 @@
     <Image Include="..\..\..\..\Downloads\exclamation_circle_icon_160168.ico">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="..\..\..\..\downloads\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>
