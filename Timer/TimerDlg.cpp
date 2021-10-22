@@ -9,7 +9,7 @@
 #define new DEBUG_NEW
 #endif
 
-
+//master push test
 
 CTimerDlg::CTimerDlg(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_TIMER_DIALOG, pParent){
