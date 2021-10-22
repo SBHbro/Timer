@@ -215,6 +215,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Downloads\exclamation_circle_icon_160168.ico" />
+    <Image Include="..\..\..\..\downloads\icon1.ico" />
     <Image Include="res\Timer.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
