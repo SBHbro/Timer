@@ -53,6 +53,13 @@ BOOL CTimerDlg::OnInitDialog()
 
 	AddComboItem();
 
+	CButton* pRadio1 = (CButton*)GetDlgItem(IDC_RADIO1);
+	CButton* pRadio2 = (CButton*)GetDlgItem(IDC_RADIO2);
+	pRadio1->SetCheck(false);
+	pRadio2->SetCheck(true);
+	pRadio1->EnableWindow(false);
+	pRadio2->EnableWindow(true);
+
 	return TRUE;  
 }
 
